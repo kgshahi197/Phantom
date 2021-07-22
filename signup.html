@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Required meta tags always comes first-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <!--Additional CSS must be placed after Bootstrap CSS-->
+     <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+      <!-- endbuild -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+      <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    
+    <title>Phantom: Stay Fitted with Elites</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                        <a href="index.html"><img src="img/logo.png" class="img-fluid"/></a>
+                    </div>
+                    <div class="col">
+                        <h1 class="font-weight-bold">Phantom</h1>
+                        <h2 class="font-weight-bold">Stay Fitted with Elites</h2>
+                    </div>
+                    <div class="col-md-4 col-xl-2 mt-4">
+                        <a role="button" class="btn btn-lg bg-warning" id="orderButton">Latest Releases</a>
+                      </div>
+                      <div class="col-md-4 col-xl-2 mt-4">
+                        <a role="button" class="btn btn-lg bg-info text-white" id="orderButton">Order Now</a>
+                      </div>
+                </div>
+            </div>
+        </header>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#phantomNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="phantomNavbar">
+                <ul class="navbar-nav align-self-center">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-female"></i> Women</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="aboutus.html"><i class="fa fa-male"></i> Men</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-universal-access" aria-hidden="true"></i> Unisex</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-bolt" aria-hidden="true"></i> Brands</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-money" aria-hidden="true"></i> Sales</a></li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+        <div class="row row-content">
+            <div class="col-12">
+                <h2 class="col-6 align-self-center">Welcome to our Fandom</h2>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="col-md-10">
+            <h3>Create An Account</h3>
+            <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label"> First Name: </label>
+                    <div class="col-md-10">
+                    <input type="text" class="form-control" id="fistName" name="firstName" placeholder="First Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label"> Last Name: </label>
+                    <div class="col-md-10">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label"> Email: </label>
+                    <div class="col-md-10">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+                    </div>
+                </div>
+                <div class="form-group row pl-3">
+                    <label for="password" class="col-md-2 col-form-label"> Password: </label> 
+                    <div class="col-md-10">
+                    <input type="password" class="form-control" id="passwordText" name="password" placeholder="password"/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col offset-md-2">
+                    Sign me up to receive updates from Phantom about exclusive collections, promotions & more!
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="contactRadios" value="yes" class="form-check-input"/>
+                        <label for="contactYes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="contactRadios" value="no" class="form-check-input"/>
+                    <label for="contactNo" class="form-check-label">No</label>
+                </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                         <button  class="btn btn-primary" type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+            </form>
+        </div>
+        <div>
+            <h5>Links</h5>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sites</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Social</h5>
+            <a href="http://instagram.com/">Instagram</a>
+            <a href="http://facebook.com/">Facebook</a>
+            <a href="http://twitter.com/">Twitter</a>
+            <a href="http://youtube.com/">YouTube</a>
+        </div>
+        <div>
+            Tel: 1-206-555-1234<br />
+            Email: campsites@nucamp.co
+        </div>
+    </footer>
+ 
+  <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>
